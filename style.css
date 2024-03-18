@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Cambiar el color de fondo según la fase */
+.timer {
+    font-family: 'Integral CF', sans-serif; /* Cambiar la fuente a Integral CF */
+    font-size: 24em;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px gray;
+    padding: 20px;
+}
+
+.red-bg {
+    background-color: red;
+}
+
+.orange-bg {
+    background-color: orange;
+}
+
+.green-bg {
+    background-color: green;
+}
